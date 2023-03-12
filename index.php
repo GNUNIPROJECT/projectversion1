@@ -9,8 +9,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body onload="positionSliders()">
     <!-- navigation bar -->
+    <header>
+        <li>Patients</li>
+        <li>Doctors</li>
+        <li>BUSINESS PARTNERSHIP</li>
+        <li>ABOUT US</li>
+        <li>INVESTORS</li>
+        <li>CONTACT US</li>
+    </header>
     <nav>
         <span>National Labs</span>
         <section id="nav-links">
@@ -30,15 +38,34 @@
             <button><i class="fa-solid fa-cart-plus"></i></button>
         </section>
 
-        <button id="menu-button"> M </button>
+        <button id="menu-button"><i class="fa-solid fa-bars"></i> </button>
 
 
     </nav>
 
     <img src="./_Banners Desktop  1366x282-01.webp" alt="Loading image">
 
+    <div class="list-container1">
+        
+        <li>
+            <div><i class="fa-solid fa-map-location"></i></div>
+            <p>Nearest Center</p>
+        </li>
+        <li>
+            <div><i class="fa-solid fa-flask"></i></div>
+            <p>Book a Test</p>
+        </li>
+        <li>
+            <div> <i class="fa-solid fa-file-invoice"></i></div>
+            <p>Upload Prescription</p>
+        </li>
+        <li>
+            <div> <i class="fa-solid fa-file-contract"></i> </div>
+            <p>Download Report</p>
+        </li>
+        
+    </div>
     <main>
-
 
         <div id="list-card">
             <h1>Why choose our services</h1>
@@ -243,67 +270,55 @@
         </div>
 
 
-     
-        
 
 
-        
+
+
+
         <div class="sliding-list-card">
-            <h1 class="heading-margin">Special Programs</h1>
+            <h1 class="heading-margin">Popular Tests / Packages</h1>
 
             <div class="sliding-list-items">
                 <section class="sliding-list-item slider2 price-card">
                     <h1>this is working</h1>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
 
                     <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
                 </section>
 
                 <section class="sliding-list-item slider2 price-card">
                     <h1>this is working</h1>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-
-                    <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
-                </section>
-
-
-
-                <section class="sliding-list-item slider2 price-card">
-                    <h1>this is working</h1>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-
-                    <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
-                </section>
-
-
-
-                <section class="sliding-list-item slider2 price-card">
-                    <h1>this is working</h1>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-
-                    <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
-                </section>
-
-
-
-                <section class="sliding-list-item slider2 price-card">
-                    <h1>this is working</h1>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
 
                     <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
                 </section>
@@ -312,10 +327,94 @@
 
                 <section class="sliding-list-item slider2 price-card">
                     <h1>this is working</h1>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+
+                    <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
+                </section>
+
+
+
+                <section class="sliding-list-item slider2 price-card">
+                    <h1>this is working</h1>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+
+                    <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
+                </section>
+
+
+
+                <section class="sliding-list-item slider2 price-card">
+                    <h1>this is working</h1>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+
+                    <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
+                </section>
+
+
+
+                <section class="sliding-list-item slider2 price-card">
+                    <h1>this is working</h1>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
 
                     <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
                 </section>
@@ -325,10 +424,22 @@
 
                 <section class="sliding-list-item slider2 price-card">
                     <h1>this is working</h1>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
 
                     <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
                 </section>
@@ -337,10 +448,22 @@
 
                 <section class="sliding-list-item slider2 price-card">
                     <h1>this is working</h1>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
 
                     <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
                 </section>
@@ -349,10 +472,22 @@
 
                 <section class="sliding-list-item slider2 price-card">
                     <h1>this is working</h1>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
 
                     <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
                 </section>
@@ -361,10 +496,22 @@
 
                 <section class="sliding-list-item slider2 price-card">
                     <h1>this is working</h1>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
 
                     <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
                 </section>
@@ -373,16 +520,28 @@
 
                 <section class="sliding-list-item slider2 price-card">
                     <h1>this is working</h1>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
-                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i><p>Minimum 12 hours fasting is mandatory.<p></div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
+                    <div class="price-card-info"><i class="fa-solid fa-cart-plus"></i>
+                        <p>Minimum 12 hours fasting is mandatory.
+                        <p>
+                    </div>
 
                     <div class="price-card-price-tag"><span>Rs 2000</span><button>Book Now</button></div>
                 </section>
 
 
-                
+
 
             </div>
             <div class="button-container1">
@@ -408,85 +567,85 @@
 
             <div class="sliding-list-items">
                 <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
                 </section>
 
                 <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
                 </section>
 
                 <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
-                </section>
-
-
-
-                <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
-                </section>
-
-
-                <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
                 </section>
 
 
 
                 <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
                 </section>
 
 
                 <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
-                </section>
-
-
-                <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
                 </section>
 
 
 
                 <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
                 </section>
 
 
                 <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
                 </section>
 
 
                 <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
                 </section>
 
 
 
                 <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                </section>
+
+
+                <section class="sliding-list-item slider3 promotional-card">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                </section>
+
+
+                <section class="sliding-list-item slider3 promotional-card">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                </section>
+
+
+
+                <section class="sliding-list-item slider3 promotional-card">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
                 </section>
 
                 <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
                 </section>
 
                 <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
                 </section>
                 <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
                 </section>
                 <section class="sliding-list-item slider3 promotional-card">
-                   <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
+                    <img src="./Family-Offer-Lab-Walk-In.jpg" alt="Loading Image">
                 </section>
-                
 
 
 
-                
-                
+
+
+
 
             </div>
             <div class="button-container1">
@@ -516,7 +675,7 @@
 
 
 
-    </main> 
+    </main>
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/265a92e85a.js" crossorigin="anonymous"></script>
 </body>

@@ -1,9 +1,12 @@
 let counter = 0;
 var sliders = document.querySelectorAll(".slider1");
 
-sliders.forEach((slide, index) => {
-  slide.style.left = `${index * slide.offsetWidth + 20 * index}px`;
-});
+function positionSlider(){
+  sliders.forEach((slide, index) => {
+    slide.style.left = `${index * slide.offsetWidth + 20 * index}px`;
+  });
+}
+
 
 // slider.array.forEach(element => {
 //         console.log(element)
@@ -39,9 +42,9 @@ function updateSlide() {
 }
 
 
-setInterval(()=>{
-  handleNextSlide();
-},4000)
+// setInterval(()=>{
+//   handleNextSlide();
+// },4000)
 
 
 
@@ -49,9 +52,14 @@ setInterval(()=>{
 let counter1 = 0;
 var sliders1 = document.querySelectorAll(".slider2");
 
-sliders1.forEach((slide1, index) => {
-  slide1.style.left = `${index * slide1.offsetWidth + 20 * index}px`;
-});
+
+
+function positionSlider1(){
+  sliders1.forEach((slide1, index) => {
+    slide1.style.left = `${index * slide1.offsetWidth + 20 * index}px`;
+  });
+}
+
 
 // slider.array.forEach(element => {
 //         console.log(element)
@@ -122,9 +130,15 @@ function updateSlide1() {
 let counter2 = 0;
 var sliders2 = document.querySelectorAll(".slider3");
 
-sliders2.forEach((slide2, index) => {
-  slide2.style.left = `${index * slide2.offsetWidth + 20 * index}px`;
-});
+
+
+
+function positionSlider2(){
+  sliders2.forEach((slide2, index) => {
+    slide2.style.left = `${index * slide2.offsetWidth + 20 * index}px`;
+  });
+}
+
 
 // slider.array.forEach(element => {
 //         console.log(element)
@@ -165,3 +179,19 @@ function updateSlide2() {
 // },4000)
 
 
+function positionSliders(){
+  positionSlider();
+  positionSlider1();
+  positionSlider2();
+ 
+}
+
+addEventListener("resize",()=>{
+  positionSliders();
+})
+
+
+addEventListener("wheel",()=>{
+  // document.querySelector("html").style.opacity=0;
+  
+})
